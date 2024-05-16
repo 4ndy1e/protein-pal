@@ -4,14 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProteinPal</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body>
-    <h1>ProteinPal</h1>
-    <p>Andy's Big 3 Recipes</p>
+    <div class="parent" style="background-color: white">
+      <div>
+        <h1 class="logo">Protein<span style="color: tomato">Pal</span></h1>
+      </div>
+      <div class="child">
+        <a class="top-nav" style="color: black" href="recipes/pasta.html">
+          Home
+        </a>
+        <a class="top-nav" href="recipes/salmon.html"> Menu </a>
+        <a class="top-nav" href="recipes/salmon.html"> About </a>
+      </div>
+    </div>
+    <div class="herbs-container">
+      <div class="home-text">
+        <h2>it's not just</h2>
+        <h2>Food, It's an</h2>
+        <h2>Experience.</h2>
+        <p>-Andy Le</p>
+      </div>
+      <img class="poki-img" src="/images/poki.png" />
+      <img class="spices-img" src="/images/spices.png" />
+    </div>
+    <div>
+      <p class="big-three">Three of a Kind</p>
+      <p class="description-three">
+        Protein-packed dishes are the perfect choice for those looking to
+        maintain a balanced diet or build muscle.
+      </p>
+    </div>
 
-    <a href="recipes/pasta.html"> Tomato Cream Pasta </a>
-    <a href="recipes/salmon.html"> Protein Shake </a>
-    <a href="recipes/salmon.html"> Honey Glazed Salmon </a>
+    <div class="food-container">
+      <div class="food-parent">
+        <div class="food-child">
+          <img src="/images/smoothie.png" class="icons" />
+          <p class="icon-name">Smoothie</p>
+          <button class="icon-button">Open</button>
+        </div>
+        <div class="food-child">
+          <img src="/images/pasta.png" class="icons pasta" />
+          <p class="icon-name">Pasta</p>
+          <button class="icon-button">Open</button>
+        </div>
+        <div class="food-child">
+          <img src="/images/poki.png" class="icons salmon" />
+          <p class="icon-name">Salmon</p>
+          <button class="icon-button">Open</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,192 @@
+h1 {
+  font-size: 50px;
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.logo {
+  margin-left: 40px;
+}
+.parent {
+  display: flex;
+  padding: 1vw;
+  justify-content: space-between;
+}
+
+.child {
+  align-self: center;
+  margin-right: 20px;
+  font-family: monospace, sans-serif;
+  font-weight: bold;
+}
+
+.top-nav {
+  font-size: 24px;
+  color: lightgray;
+  margin: 35px;
+}
+
+.home-text {
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: bold;
+  margin-top: 150px;
+  margin-left: 75px;
+}
+
+.home-text p {
+  margin: 40px;
+  color: tomato;
+  font-size: 40px;
+  text-align: right;
+  padding-bottom: 275px;
+}
+
+.herbs-container {
+  display: flex;
+  height: fit-content;
+}
+
+.herbs-container img {
+  position: absolute;
+}
+
+.poki-img {
+  width: 1000px;
+  height: auto;
+  margin-top: 150px;
+  right: 6%;
+}
+
+.spices-img {
+  width: 800px;
+  height: auto;
+  right: 0%;
+}
+
+.big-three {
+  font-size: 70px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.description-three {
+  font-family: monospace, sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+}
+
+.food-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-parent {
+  display: flex;
+  /* background-color: lightblue; */
+}
+
+.food-child {
+  width: 350px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 55px;
+  margin: 50px;
+  text-align: center;
+}
+
+.food-child:hover {
+  box-shadow: 0px 0px 30px 0px rgb(229, 229, 229);
+  border: none;
+  outline: none;
+}
+
+.icons {
+  width: 250px;
+  height: auto;
+  /* position: absolute;
+  z-index: 1; */
+}
+
+.icon-name {
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.icon-button {
+  background-color: tomato;
+  font-family: monospace, sans-serif;
+  font-size: 20px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+
+.icons.pasta {
+  width: 365px;
+  height: auto;
+  margin-top: 70px;
+  margin-bottom: 61px;
+}
+
+.icons.salmon {
+  width: 375px;
+  height: auto;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+/* IF resolution is below 600px, then this will display */
+@media screen and (max-width: 1550px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    margin: 0px;
+    font-size: 100px;
+  }
+
+  .home-text {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 75px;
+  }
+
+  .home-text p {
+    margin: 20px;
+    color: tomato;
+    font-size: 40px;
+    text-align: right;
+  }
+
+  .poki-img {
+    width: 800px;
+    height: auto;
+    margin-top: 100px;
+    right: 6%;
+  }
+
+  .spices-img {
+    width: 600px;
+    height: auto;
+    right: 0%;
+  }
+}
