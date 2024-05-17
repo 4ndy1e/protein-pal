@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-size: 50px;
   margin: 0px;
@@ -12,11 +16,16 @@ a {
   text-decoration: none;
 }
 
+body {
+  margin: 0px;
+}
+
 button:hover {
   cursor: pointer;
   background-color: pink;
   border-radius: 35px;
 }
+
 .logo {
   margin-left: 40px;
 }
@@ -60,7 +69,7 @@ button:hover {
 
 .herbs-container {
   display: flex;
-  height: fit-content;
+  height: 1050px;
 }
 
 .herbs-container img {
@@ -99,6 +108,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 350px;
 }
 
 .food-parent {
@@ -158,6 +168,79 @@ button:hover {
   margin-bottom: 50px;
 }
 
+h3 {
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  /* background-color: lightblue; */
+}
+
+.recipe-parent {
+  background-color: white;
+}
+
+.recipe-text {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.recipe-text.container {
+  /* padding: 15px 25px; */
+  width: 100%;
+  border: solid 1px gray;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.recipe-text.container div {
+  background-color: tomato;
+  height: 10px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.recipe-text p {
+  padding: 15px 25px;
+}
+
+.recipe-text li {
+  padding: 10px;
+}
+
+.fresh-container {
+  display: flex;
+  height: 500px;
+  background-color: rgb(27, 27, 27);
+  justify-content: space-between;
+}
+
+.eggs {
+  height: 100%;
+  width: auto;
+}
+
+.guac {
+  height: 100%;
+  width: auto;
+}
+
+.freshness {
+  font-size: 90px;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+  margin-top: 200px;
+}
 /* IF resolution is below 600px, then this will display */
 @media screen and (max-width: 1550px) {
   h1 {
